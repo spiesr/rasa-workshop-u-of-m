@@ -1,0 +1,9 @@
+models
+.git
+.gitignore
+Dockerfile
+README.md
+*.~
+*.swp
+.dockerignore
+test.py

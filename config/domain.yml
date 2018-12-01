@@ -1,0 +1,21 @@
+intents:
+  - greet
+  - thankyou
+  - do_something
+  - goodbye
+
+actions:
+  - utter_greeting
+  - utter_thanks
+  - utter_something
+  - utter_bye
+
+templates:
+  utter_greeting:
+    - Hello! And welcome to Rasa!
+  utter_thanks:
+    - And thank you for talking to me!
+  utter_something:
+    - Sure I can do something. I can do anything you like
+  utter_bye:
+    - Goodbye
